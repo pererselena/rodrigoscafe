@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rodrigos Café</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel='shortcut icon' href='img/cupcake.png' />
+</head>
+
+<body>
+    <header class="site-header">
+        <img src="img/logo.png" alt="cupcake" />
+        <h1 class="site-title">Rodrigos Café</h1>
+        <p class="site-slogan">The place where flavour is released!</p>
+    </header>
+    <nav class="navbar">
+        <a href="#top" aria-label="Go to home.">Home</a>
+        <a href="#about" aria-label="Go to about.">About</a>
+        <a href="#menu" aria-label="Go to the menu.">Menu</a>
+        <a href="#recipe" aria-label="Go to the recipe.">Recipe</a>
+        <a href="#contact" aria-label="Go to the contacts.">Contact us</a>
+    </nav>
+
+    <main>
+        <article tabindex="0">
+            <h2 id="about">About</h2>
+            <p>A café is a type of restaurant which usually serves coffee and snacks. The term "café" comes from
+                French, and means "coffee".</p>
+            <p>You can read newspapers and magazines there, or chat with other customers about current topics. It
+                is known as a place where information can be exchanged.</p>
+            <p>A café is sometimes called a coffeehouse or a coffee shop or tea shop in English, a café in French
+                and a cafe in Italian. (Cafe/café is the spelling in English, French, Spanish etc. But "caffe" is
+                how the Italian word for coffee is spelled in that language.) It shares some of the characteristics
+                of a bar, and some of the characteristics of a restaurant, but it is different from a cafeteria,
+                which is a type of restaurant where customers can choose from many dishes on a serving line. In
+                some countries, cafes more closely resemble restaurants, offering a range of hot meals, and
+                possibly being licensed to serve alcohol. Most British cafes, however, do not sell alcohol.</p>
+            <p>In the Netherlands, cannabis-selling cafés face an uncertain future under a planned new law banning
+                smoking in public places. The cafés, which attract millions of tourists each year, allow customers
+                to buy marijuana over the counter and openly smoke it. In the United States, donut shops are also
+                popular places to drink coffee and hang out.</p>
+            <p>A new type of café, known as the Internet café, was introduced in the 1990s. The spread of
+                modern-style cafes to many places, urban and rural, went hand in hand with computers. Computers and
+                Internet access in a contemporary atmosphere created a youthful, modern public space, compared to
+                the traditional bars, or old-fashioned diners that they replaced. Nowadays, many cafés offer
+                wireless Internet or have computers customers can use, just as they offer telephones and
+                newspapers. You can order from your smartphone, tablet, or pretty much any other device on some
+                websites, like Starbucks through a free app.</p>
+        </article>
+        <section tabindex="0">
+            <h2 id="menu">Menu</h2>
+            <div class="pdf">
+            <object class="responsive-pdf" data="pdf/muffins_menu.pdf" type="application/pdf">
+                <embed src="pdf/muffins_menu.pdf" type="application/pdf" aria-label="Our menu.">
+                    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="pdf/muffins_menu.pdf">Download PDF</a>.</p>
+            </object>
+        </div>
+                <a href="menu.html">Open in new page</a>
+        </section>
+        <section tabindex="0">
+            <h2 id="recipe">Recipes</h2>
+            <p>Here you can watch how to make our famous blueberry muffins.</p>
+            <div class="video">
+                <iframe class="responsive" src="https://www.youtube.com/embed/cL-gM_ESP4g?rel=0&amp;showinfo=0" allow="autoplay; encrypted-media"
+                    allowfullscreen aria-label="American Blueberry Muffins."></iframe>
+            </div>
+        </section>
+        <section class="contact">
+            <h2 id="contact" tabindex="0">Contact Us</h2>
+            <address>
+                Adress<br>
+                Street street 25<br>
+                155 55 Stockholm<br>
+                <a title="Location" href="https://goo.gl/maps/Q4YyPdiqDbz" aria-label="Map showing location.">We are
+                    here!</a><br>
+                You can write us an <a href="mailto:someone@example.com?Subject=Info" target="_top" aria-label="Send e-mail.">e-mail</a>
+            </address>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <hr>
+        <ul class="validators">
+            <li>Validators:</li>
+            <li>
+                <a href="http://validator.w3.org/check/referer" aria-label="Validator for HTML code.">HTML5</a>
+            </li>
+            <li>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer" aria-label="Validator för CSS code.">CSS</a>
+            </li>
+            <li>
+                <a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance" aria-label="Validator for HTML and CSS code.">Unicorn</a>
+            </li>
+        </ul>
+        <div class="icons">
+            <p>&copy;Rodrigos café</p>
+            <a href="#" aria-label="Go to our facebook."><img title="Facebook" src="img/facebook.png" alt="facebook"></a>
+            <a href="#" aria-label="Go to our instagram."><img title="Instagram" src="img/instagram.png" alt="facebook"></a>
+        </div>
+    </footer>
+</body>
+</html>
